@@ -1,0 +1,46 @@
+body {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    height: 100vh;
+    width: 100vw;
+}
+
+fieldset {
+padding: 1rem 300px;
+}
+form {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.special {
+    flex-direction: row;
+
+}
+
+.special div {
+    padding: 1rem;
+}
+.radio-buttons {
+    display: flex;
+    flex-direction:  row;
+    padding-bottom: 2rem;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+}
